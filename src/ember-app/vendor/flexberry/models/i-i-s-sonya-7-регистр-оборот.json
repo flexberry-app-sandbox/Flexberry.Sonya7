@@ -1,0 +1,45 @@
+﻿{
+  "name": "IISSonya_7РегистрОборот",
+  "modelName": "i-i-s-sonya-7-регистр-оборот",
+  "className": "РегистрОборот",
+  "nameSpace": "IIS.Sonya_7",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приходДенег",
+      "relatedTo": "i-i-s-sonya-7-приход-денег",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расходДенег",
+      "relatedTo": "i-i-s-sonya-7-расход-денег",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РегистрОборотE",
+      "modelName": "i-i-s-sonya-7-регистр-оборот",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РегистрОборотL",
+      "modelName": "i-i-s-sonya-7-регистр-оборот",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sonya-7-поставщики-e",
+  "editForm": "i-i-s-sonya-7-поставщики-e",
+  "external": false,
+  "caption": "Поставщики",
+  "name": "IISSonya_7ПоставщикиL",
+  "className": "ПоставщикиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya-7-поставщики",
+      "modelProjection": "ПоставщикиL"
+    }
+  ]
+}

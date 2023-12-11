@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Расход денег",
+  "name": "IISSonya_7РасходДенегE",
+  "className": "РасходДенегE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya-7-расход-денег",
+      "modelProjection": "РасходДенегE"
+    }
+  ]
+}

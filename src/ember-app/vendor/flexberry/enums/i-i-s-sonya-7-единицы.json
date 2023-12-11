@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Sonya_7",
+  "className": "Единицы",
+  "enumObjects": {
+    "Шт": "Шт",
+    "Г": "Г",
+    "Кг": "Кг"
+  }
+}

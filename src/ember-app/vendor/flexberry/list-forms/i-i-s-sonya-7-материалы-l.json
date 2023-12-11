@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sonya-7-материалы-e",
+  "editForm": "i-i-s-sonya-7-материалы-e",
+  "external": false,
+  "caption": "Материалы",
+  "name": "IISSonya_7МатериалыL",
+  "className": "МатериалыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya-7-материалы",
+      "modelProjection": "МатериалыL"
+    }
+  ]
+}

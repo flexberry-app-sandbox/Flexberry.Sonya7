@@ -1,0 +1,55 @@
+﻿{
+  "name": "IISSonya_7ПереченьМат",
+  "modelName": "i-i-s-sonya-7-перечень-мат",
+  "className": "ПереченьМат",
+  "nameSpace": "IIS.Sonya_7",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "материалы",
+      "relatedTo": "i-i-s-sonya-7-материалы",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расходДенег",
+      "relatedTo": "i-i-s-sonya-7-расход-денег",
+      "inverse": "переченьМат"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПереченьМатE",
+      "modelName": "i-i-s-sonya-7-перечень-мат",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

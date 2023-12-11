@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sonya-7-финансисты-e",
+  "editForm": "i-i-s-sonya-7-финансисты-e",
+  "external": false,
+  "caption": "Финансисты",
+  "name": "IISSonya_7ФинансистыL",
+  "className": "ФинансистыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya-7-финансисты",
+      "modelProjection": "ФинансистыL"
+    }
+  ]
+}

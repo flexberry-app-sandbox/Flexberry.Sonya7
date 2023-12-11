@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Регистр оборот",
+  "name": "IISSonya_7РегистрОборотE",
+  "className": "РегистрОборотE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya-7-регистр-оборот",
+      "modelProjection": "РегистрОборотE"
+    }
+  ]
+}

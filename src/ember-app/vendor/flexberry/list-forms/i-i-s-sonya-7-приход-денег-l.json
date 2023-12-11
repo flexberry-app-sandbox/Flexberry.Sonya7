@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sonya-7-приход-денег-e",
+  "editForm": "i-i-s-sonya-7-приход-денег-e",
+  "external": false,
+  "caption": "Приход денег",
+  "name": "IISSonya_7ПриходДенегL",
+  "className": "ПриходДенегL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya-7-приход-денег",
+      "modelProjection": "ПриходДенегL"
+    }
+  ]
+}

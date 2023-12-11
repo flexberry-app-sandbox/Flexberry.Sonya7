@@ -1,0 +1,1 @@
+docker-compose -p sonya_7-java up -d
